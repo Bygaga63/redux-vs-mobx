@@ -31,7 +31,7 @@ const makeLouder = (string) => string.toUpperCase();
 const repeatThreeTimes = (string) => string.repeat(3);
 const embolden = (string) => string.bold();
 
-//создаем супер функцию справа налево
+//комбинируем функции
 const makeLoaderAndBoldAndRepeatThreeTimes = 
       compose(embolden, repeatThreeTimes, makeLouder);
 
