@@ -1,11 +1,11 @@
 # redux-vs-mobx
-State Management with Redux &amp; MobX - курс
+State Management with Redux &amp; MobX - курс [pdf link](https://static.frontendmasters.com/resources/2019-05-28-react-state/redux-mobx.pdf)
 
 Разбор хранилищ состояний с нуля
 * Redux
 * MobX
 
-###Redux
+### Redux
 ```
 applyMiddleware: function()
 bindActionCreators: function()  // helper function
